@@ -1,0 +1,22 @@
+*{font-size: 20px}
+
+.titulo{
+	color: orange;
+	font-size: 40px;
+	text-align: center;
+}
+.fila1{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#capa1{
+	height: 75px;
+	width: 33%;
+	background-color: orange;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
