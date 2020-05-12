@@ -46,11 +46,14 @@ DEL BODY ORIGINAL LO PONGO EN CASTELLANO.... QUE ME LÍO*/
 #resultadoEjer11{  /* AQUÍ SE MUETRAN LOS RESULTADOS */
 	width: 100%;
 	font-size: 23px;
+	order: 1;
 	text-align: center;
 	border: 1px solid black;
 	padding: 10px;
+	margin-top: 5px;
 }
 .ejercicio-11{
+	order: 2;
 	width: 32%;
 	background-color: antiquewhite;
 	display: flex;
