@@ -1,17 +1,40 @@
+/* ASPECTOS GENERALES */
 *{font-size: 20px}
 
-.titulo{
+/* CABECERA PRINCIPAL donde se encuentran título y menú (ya veremos que más) */
+#cabecera{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+#tituloPrincipal{
+	width: 33%;
 	color: orange;
 	font-size: 40px;
 	text-align: center;
 }
-.fila1{
+/* HASTA AQUÍ LA CABECERA 
+-------------------------------------- */
+
+/* ESTILO DEL CUERPO PRINCIPAL (O BODY), PERO PARA DIFERENCIARLO
+DEL BODY ORIGINAL LO PONGO EN CASTELLANO.... QUE ME LÍO*/
+#cuerpo{
 	width: 100%;
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-#capa1{
+			/* ¿QUE ENCONTRAMOS EN EL CUELLLPO? -----> */
+.ejercicios{
+	width: 70%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-top: 5px;
+}
+.ejerJS-8-9-10{
 	height: 75px;
 	width: 33%;
 	background-color: orange;
@@ -20,16 +43,12 @@
 	justify-content: center;
 	align-items: center;
 }
-.fila2{
+.ejercicio-11{
+	width: 30%;
 	background-color: antiquewhite;
-	width: 100%;
 	display: flex;
+	align-content: stretch;
 	justify-content: center;
 	flex-wrap: wrap;
-}
-#cajaTexto{
-	background-color: gainsboro;
-	width: 25%;
-	align-items: center;
 	padding: 0.5% 0.5% 0.5% 0.5%;
 }
