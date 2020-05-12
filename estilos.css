@@ -43,12 +43,18 @@ DEL BODY ORIGINAL LO PONGO EN CASTELLANO.... QUE ME LÍO*/
 	justify-content: center;
 	align-items: center;
 }
+#resultadoEjer11{  /* AQUÍ SE MUETRAN LOS RESULTADOS */
+	width: 100%;
+	font-size: 23px;
+	text-align: center;
+	border: 1px solid black;
+	padding: 10px;
+}
 .ejercicio-11{
-	width: 30%;
+	width: 32%;
 	background-color: antiquewhite;
 	display: flex;
-	align-content: stretch;
-	justify-content: center;
+	align-self: stretch;  /*RELLENA LOS ESPACIO VERTICALES DEL CONTENIDO PROPIO*/
 	flex-wrap: wrap;
 	padding: 0.5% 0.5% 0.5% 0.5%;
 }
